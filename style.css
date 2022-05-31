@@ -1,0 +1,59 @@
+body{
+    font-family: 'Merriweather', serif; /*se cambia tipografia a body*/
+    background-color: azure;
+}
+
+#container{  /*se da formato a id container*/
+    width:80% ;
+    margin:0 auto;
+}
+
+img{
+    width: 30%;
+    margin: 1.4%;
+    margin-left: 1.4%;
+    border-radius: 3rem ;  
+}
+#texto{
+    background-color: beige;
+    border-radius: 15px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+p{
+    margin-left:4rem;
+    margin-right: 4rem;
+}
+#info{
+    font-weight:400;
+    color: blue;
+    
+}
+
+h1{
+    font-size: 40px; /*se ajusta letra a 40px*/
+    text-transform:uppercase;   /*se transforma a mayusculas todo desde css*/
+    text-align: center; /*Centrado*/
+    border-bottom: 2px solid red ; 
+    margin: 1.4%;
+    margin-left: 1.4%; /*subrayado*/
+    padding-bottom: 2rem;  /*separo subrayado de titulo h1*/
+}
+
+h2{
+    color: rgb(0, 89, 255);
+    font-weight:500;
+    margin-left: 4rem;
+}
+.pointer{
+        cursor:pointer; /*las fotografias con link a otra pagina cursor se vera con manito*/
+}
+
+#retorno{
+    text-align: left;
+    font-size: 1rem ;
+
+}
+
+
